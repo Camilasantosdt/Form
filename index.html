@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title> Cadastre-se </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet"type="text/css"href="css/index.css"/>
+    <script src="js/validarform.js"></script>
+</head>
+
+
+
+<body>
+
+<div id="main">  
+
+<div id="formulario">
+
+    <h2> Inscrição para cursos</h2>
+
+    <form>
+
+        <div class="linha">
+                
+            <span>
+                <label>Nome Completo</label>
+                <input type="text" id="nomecompleto" required/>
+
+                <span>   
+                    <label>E-mail</label>
+                    <input type="text" id="em" required/>
+                </span>
+            </span>
+        </div>
+
+        <div class="linha">
+
+            <span>
+                <label>Curso desejado </label>
+                <input type="text" id="cd" required/>
+            </span>
+
+            <span>
+                <label> Inicio </label>
+                <input type="text" id="inicio" required/>
+            </span>
+        </div>
+
+        <div class="linha">
+
+            <span>
+
+            <label>Telefone:</label>
+                <input type="text" required/>
+            </span>
+
+            <span>
+
+              <label>Celular:</label>
+              <input type="text" required/>
+            </span>
+
+        </div>
+
+        <div class="linha">
+
+            <span>
+                <input type="submit" onclick="validarform()" value="Inscreva-se" id="botao"/>
+            </span>
+
+        </div>
+        
+
+    </form>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
